@@ -1,5 +1,11 @@
 import React, { Component } from "react";
 
+// Class component
+
+/* 
+  How to use:
+  <ClassGreeting />
+*/
 class ClassGreeting extends Component {
   render() {
     return (
@@ -11,4 +17,5 @@ class ClassGreeting extends Component {
   }
 }
 
+// the export is the name of the class
 export default ClassGreeting;

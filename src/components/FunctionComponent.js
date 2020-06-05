@@ -1,6 +1,11 @@
 import React from "react";
 
 // standard function
+
+/* 
+  How to use:
+  <FunctionGreeting />
+*/
 function FunctionGreeting() {
   return (
     <React.Fragment>
@@ -13,9 +18,15 @@ function FunctionGreeting() {
 // the export is the name of the function
 export default FunctionGreeting;
 
+
 // arrow function
 // the export is different because the return value is in a variable, ArrowFunctionGreeting
 // note that the variable starts with an uppercase because it will be used as a JSX element
+
+/* 
+  How to use:
+  <ArrowFunctionGreeting />
+*/
 export const ArrowFunctionGreeting = () => {
   return (
     <React.Fragment>
