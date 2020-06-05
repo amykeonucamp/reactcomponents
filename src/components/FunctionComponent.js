@@ -4,8 +4,8 @@ import React from "react";
 function FunctionGreeting() {
   return (
     <React.Fragment>
-      <h2>Function Component Example 1</h2>
-      <p>Hello World from Function</p>
+      <h2 className="headerFunction1">Function Component Example 1</h2>
+      <p className="paragraphFunction1">Hello World from Function</p>
     </React.Fragment>
   );
 }
@@ -19,8 +19,8 @@ export default FunctionGreeting;
 export const ArrowFunctionGreeting = () => {
   return (
     <React.Fragment>
-      <h2>Function Component Example 2</h2>
-      <p>Hello World from Arrow Function</p>
+      <h2 className="headerFunction2">Function Component Example 2</h2>
+      <p className="paragraphFunction2">Hello World from Arrow Function</p>
     </React.Fragment>
   );
 };

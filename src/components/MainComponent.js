@@ -14,21 +14,26 @@ class Main extends Component {
         */}
         {jsxElement}
 
+        <hr />
+
         {/*
             Function Component using standard function statement
         */}
         <FunctionGreeting />
+
+        <hr />
 
         {/* 
             Function Component using arrow function statement
         */}
         <ArrowFunctionGreeting />
 
+        <hr />
+
         {/* 
             Class Component inheriting React.Component
         */}
-        <ClassGreeting />        
-        
+        <ClassGreeting />
       </React.Fragment>
     );
   }
